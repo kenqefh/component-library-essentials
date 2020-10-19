@@ -1,0 +1,11 @@
+.header_page {
+  border: 1px solid #d9d9d9;
+  background-color: white;
+}
+
+.image_header {
+  width: 80px;
+  height: 80px;
+  margin: 16px auto;
+  display: block;
+}

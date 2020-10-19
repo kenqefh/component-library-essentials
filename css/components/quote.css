@@ -1,0 +1,26 @@
+.quote__example {
+  color: var(--text-color--primary);
+  padding: 16px;
+  border: 1px solid var(--background-color--primary);
+  font-style: normal;
+
+  width: 640px;
+  box-sizing: content-box;
+}
+
+.quote__example__content {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.quote__example__autor {
+  font-family: Piazzolla;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  text-transform: uppercase;
+  margin-top: 16px;
+}

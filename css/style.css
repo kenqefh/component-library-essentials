@@ -1,0 +1,9 @@
+@import "global.css";
+@import "components/header.css";
+@import "components/main.css";
+@import "components/wrapper.css";
+@import "components/headings.css";
+@import "components/paragraph.css";
+@import "components/quote.css";
+@import "components/color.css";
+@import "components/elements.css";

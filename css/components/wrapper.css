@@ -1,0 +1,7 @@
+.section_level1 > article {
+  padding: 16px;
+}
+
+.section_level2 > article {
+  padding: 10px 0;
+}

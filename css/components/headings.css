@@ -1,0 +1,38 @@
+.headings__example {
+  color: var(--text-color--primary);
+  font-style: normal;
+  font-weight: 600;
+}
+.headings__example > * {
+  margin-top: 16px;
+}
+
+.h1 {
+  font-size: 32px;
+  line-height: 38px;
+}
+.h2 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.h5 {
+  font-size: 16px;
+  line-height: 20px;
+}
+.h6 {
+  font-size: 12px;
+  line-height: 16px;
+
+  text-transform: uppercase;
+}
