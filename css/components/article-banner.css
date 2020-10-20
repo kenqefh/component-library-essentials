@@ -1,0 +1,16 @@
+.article_banner {
+  background-image: url("./../../images/background.png");
+  padding: 40px 90px 100px;
+  color: var(--color-white);
+  font-family: "Raleway", sans-serif;
+}
+
+.article_banner__title {
+  font-weight: 500;
+  padding-bottom: 24px;
+}
+
+.article_banner__text {
+  font-weight: 300;
+  padding-bottom: 24px;
+}

@@ -1,0 +1,22 @@
+.article {
+  margin: 16px 0;
+}
+
+.article__title {
+  font-family: "Rubik", sans-serif;
+
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.article__example {
+  margin-bottom: 16px;
+}
+
+.article__code {
+  display: block;
+  padding: 20px;
+  background-color: var(--background-color--primary);
+}

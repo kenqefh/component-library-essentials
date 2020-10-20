@@ -1,10 +1,11 @@
-.headings__example {
+.article_headings {
   color: var(--text-color--primary);
+}
+.article_headings__child {
+  margin-top: 16px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-}
-.headings__example > * {
-  margin-top: 16px;
 }
 
 .h1 {

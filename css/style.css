@@ -1,9 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@300;500&family=Roboto:wght@500&family=Rubik&display=swap");
+
 @import "global.css";
 @import "components/header.css";
 @import "components/main.css";
-@import "components/wrapper.css";
-@import "components/headings.css";
-@import "components/paragraph.css";
-@import "components/quote.css";
-@import "components/color.css";
-@import "components/elements.css";
+@import "components/section.css";
+@import "components/article.css";
+@import "components/article-headings.css";
+@import "components/article-paragraph.css";
+@import "components/article-quote.css";
+@import "components/article-colors.css";
+@import "components/button.css";
+@import "components/article-base-button.css";
+@import "components/article-button-types.css";
+@import "components/article-button-styles.css";
+@import "components/article-button-sizes.css";
+@import "components/article-images.css";
+@import "components/article-banner.css";

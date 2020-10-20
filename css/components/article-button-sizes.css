@@ -1,0 +1,16 @@
+.button__sizes__primary,
+.button__sizes__small,
+.button__sizes__large {
+  background-color: var(--color-blue);
+}
+.button__sizes__small {
+  height: 32px;
+}
+.button__sizes__large {
+  height: 48px;
+}
+
+.article_button_sizes {
+  display: flex;
+  align-items: flex-end;
+}

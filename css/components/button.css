@@ -1,5 +1,17 @@
 .button {
   height: 40px;
+  margin-right: 8px;
+
   border-radius: 8px;
-  padding-right: 8px;
+  border: none;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-white);
+}
+.button__span {
+  text-align: center;
+  padding: 0 24px;
 }

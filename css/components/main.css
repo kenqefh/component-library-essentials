@@ -1,5 +1,10 @@
-.main_container {
+.main {
   max-width: 960px;
   margin: 0 auto;
   background-color: white;
+}
+
+.main__sections {
+  display: flex;
+  flex-direction: column;
 }

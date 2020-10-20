@@ -1,0 +1,5 @@
+.button__style__icon,
+.button__style__with_icon,
+.button__style__primary {
+  background-color: var(--color-blue);
+}

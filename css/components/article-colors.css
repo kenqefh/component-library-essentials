@@ -1,0 +1,62 @@
+.article_colors__ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.article_colors__li {
+  display: flex;
+  padding: 4px 0;
+}
+.article_colors__li__circle {
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+}
+.article_colors__li__p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+
+  padding-left: 8px;
+  padding-right: 16px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.circle_blue {
+  background-color: var(--color-blue);
+}
+
+.circle_green {
+  background-color: var(--color-green);
+}
+
+.circle_yellow {
+  background-color: var(--color-yellow);
+}
+
+.circle_red {
+  background-color: var(--color-red);
+}
+
+.circle_midnight {
+  background-color: var(--color-midnight);
+}
+
+.circle_light {
+  background-color: var(--color-light);
+  border: 1px solid #d9d9d9;
+}
+
+.circle_white {
+  background-color: var(--color-white);
+  border: 1px solid #d9d9d9;
+}
+
+.circle_gray {
+  background-color: var(--color-gray);
+}
+
+.circle_black {
+  background-color: var(--color-black);
+}
