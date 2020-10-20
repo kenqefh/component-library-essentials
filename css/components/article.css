@@ -14,9 +14,3 @@
 .article__example {
   margin-bottom: 16px;
 }
-
-.article__code {
-  display: block;
-  padding: 20px;
-  background-color: var(--background-color--primary);
-}

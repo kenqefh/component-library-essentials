@@ -92,7 +92,9 @@
                     “Any fool can write code that a computer can understand.
                     Good programmers write code that humans can understand.”
                   </p>
-                  <p class="article_quote__autor">- Martin Fowler</p>
+                  <footer>
+                    <p class="article_quote__autor">- Martin Fowler</p>
+                  </footer>
                 </blockquote>
               </div>
               <pre class="article__code"> 
@@ -102,7 +104,9 @@
   <span class="code_gray">“Any fool can write code that a computer can understand.
     Good programmers write code that humans can understand.”</span>
   <span class="code_blue">&lt;/p&gt;</span>
-  <span class="code_blue">&lt;p</span> <span class="code_red">class=</span><span class="code_yellow">"article_quote__autor"</span>&gt;<span class="code_gray">- Martin Fowler</span><span class="code_blue">&lt;/p&gt;</span>
+  <span class="code_blue">&lt;footer&gt;</span>
+    <span class="code_blue">&lt;p</span> <span class="code_red">class=</span><span class="code_yellow">"article_quote__autor"</span>&gt;<span class="code_gray">- Martin Fowler</span><span class="code_blue">&lt;/p&gt;</span>
+  <span class="code_blue">&lt;/footer&gt;</span>
 <span class="code_blue">&lt;/blockquote&gt;</span>
               </code>
               </pre>
@@ -152,7 +156,50 @@
                   </li>
                 </ul>
               </div>
-              <code class="article__code">Code</code>
+              <pre class="article__code">
+                <code>
+&lt;ul class="article_colors__ul"&gt;
+  &lt;li class="article_colors__li"&gt;
+    &lt;div class="article_colors__li__circle circle_blue"&gt;&lt;/div&gt;
+    &lt;p class="article_colors__li__p"&gt;blue #118AB2&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class="article_colors__li"&gt;
+    &lt;div class="article_colors__li__circle circle_green"&gt;&lt;/div&gt;
+    &lt;p class="article_colors__li__p"&gt;green #06D6A0&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class="article_colors__li"&gt;
+    &lt;div class="article_colors__li__circle circle_yellow"&gt;&lt;/div&gt;
+    &lt;p class="article_colors__li__p"&gt;yellow #FFD166&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class="article_colors__li"&gt;
+    &lt;div class="article_colors__li__circle circle_red"&gt;&lt;/div&gt;
+    &lt;p class="article_colors__li__p"&gt;red #EF476F&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class="article_colors__li"&gt;
+    &lt;div
+      class="article_colors__li__circle circle_midnight"
+    &gt;&lt;/div&gt;
+    &lt;p class="article_colors__li__p"&gt;midnight #073B4C&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class="article_colors__li"&gt;
+    &lt;div class="article_colors__li__circle circle_light"&gt;&lt;/div&gt;
+    &lt;p class="article_colors__li__p"&gt;light #F8F9FA&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class="article_colors__li"&gt;
+    &lt;div class="article_colors__li__circle circle_white"&gt;&lt;/div&gt;
+    &lt;p class="article_colors__li__p"&gt;white #FFFFFF&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class="article_colors__li"&gt;
+    &lt;div class="article_colors__li__circle circle_gray"&gt;&lt;/div&gt;
+    &lt;p class="article_colors__li__p"&gt;gray #888888&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class="article_colors__li"&gt;
+    &lt;div class="article_colors__li__circle circle_black"&gt;&lt;/div&gt;
+    &lt;p class="article_colors__li__p"&gt;black #262626&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+                </code>
+              </pre>
             </article>
           </section>
         </article>
@@ -172,7 +219,15 @@
                   </span>
                 </button>
               </div>
-              <code class="article__code"> code.. </code>
+              <pre class="article__code">
+                <code>
+&lt;button&gt; class="button button__base"&gt;
+  &lt;span&gt; class="button__span"&gt;
+    &lt;i&gt; class="button__span__i fas fa-download"&gt;&lt;/i&gt; Base Button
+  &lt;/span&gt;
+&lt;/button&gt;
+                </code>
+              </pre>
             </article>
 
             <article class="article">
@@ -197,7 +252,28 @@
                   <span class="button__span">Transparent</span>
                 </button>
               </div>
-              <code class="article__code"> code.. </code>
+              <pre class="article__code">
+                <code>
+&lt;button class="button button__primary"&gt;
+  &lt;span class="button__span"&gt;Primary&lt;/span&gt;
+&lt;/button&gt;
+&lt;button class="button button__secundary"&gt;
+  &lt;span class="button__span"&gt;Secundary&lt;/span&gt;
+&lt;/button&gt;
+&lt;button class="button button__success"&gt;
+  &lt;span class="button__span"&gt;Success&lt;/span&gt;
+&lt;/button&gt;
+&lt;button class="button button__warning"&gt;
+  &lt;span class="button__span"&gt;Warning&lt;/span&gt;
+&lt;/button&gt;
+&lt;button class="button button__danger"&gt;
+  &lt;span class="button__span"&gt;Danger&lt;/span&gt;
+&lt;/button&gt;
+&lt;button class="button button__transparent"&gt;
+  &lt;span class="button__span"&gt;Transparent&lt;/span&gt;
+&lt;/button&gt;
+                </code>
+              </pre>
             </article>
 
             <article class="article">
@@ -219,7 +295,23 @@
                   </span>
                 </button>
               </div>
-              <code class="article__code"> code.. </code>
+              <pre class="article__code"> <code>
+&lt;button&gt; class="button button__style__primary"&gt;
+  &lt;span&gt; class="button__span"&gt;Primary&lt;/span&gt;
+&lt;/button&gt;
+
+&lt;button&gt; class="button button__style__with_icon"&gt;
+  &lt;span class="button__span"&gt;
+    &lt;i class="button__span__i fas fa-download"&gt;&lt;/i&gt; With Icon
+  &lt;/span&gt;
+&lt;/button&gt;&gt;
+
+&lt;button class="button button__style__icon"&gt;
+  &lt;span class="button__span"&gt;
+    &lt;i class="button__span__i fas fa-download"&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/button&gt;
+              </code> </pre>
             </article>
 
             <article class="article">
@@ -237,7 +329,19 @@
                   <span class="button__span">Large</span>
                 </button>
               </div>
-              <code class="article__code"> code.. </code>
+              <pre class="article__code"> <code>
+&lt;button class="button button__sizes__primary"&gt;
+  &lt;span class="button__span"&gt;Primary&lt;/span&gt;
+&lt;/button&gt;
+
+&lt;button class="button button__sizes__small"&gt;
+  &lt;span class="button__span"&gt;Small&lt;/span&gt;
+&lt;/button&gt;
+
+&lt;button class="button button__sizes__large"&gt;
+  &lt;span class="button__span"&gt;Large&lt;/span&gt;
+&lt;/button&gt;
+              </code> </pre>
             </article>
 
             <article class="article">
@@ -272,7 +376,34 @@
                   />
                 </div>
               </div>
-              <code class="article__code"> code.. </code>
+              <pre class="article__code"> <code>
+&lt;img
+    class="image image_rectangle"
+    src="images/image_1.png"
+    alt="img"
+  /&gt;
+&lt;/div&gt;
+&lt;div class="article_images__child"&gt;
+  &lt;img
+    class="image image_circle"
+    src="images/image_1.png"
+    alt="img"
+  /&gt;
+&lt;/div&gt;
+&lt;div class="article_images__child"&gt;
+  &lt;img
+    class="image image_shadow image_rectangle"
+    src="images/image_1.png"
+    alt="img"
+  /&gt;
+&lt;/div&gt;
+&lt;div class="article_images__child"&gt;
+  &lt;img
+    class="image image_shadow image_circle"
+    src="images/image_1.png"
+    alt="img"
+  /&gt;
+              </code> </pre>
             </article>
           </section>
         </article>
@@ -296,7 +427,19 @@
                   <span class="button__span">Apply now</span>
                 </button>
               </div>
-              <code class="article__code">Code..</code>
+              <pre class="article__code"><code>
+&lt;div class="article__example article_banner"&gt;
+  &lt;h2 class="article_banner__title"&gt;
+    Full Stack Web Development
+  &lt;/h2&gt;
+  &lt;p class="article_banner__text"&gt;
+    Become a better version of yourself in only 6 months.
+  &lt;/p&gt;
+  &lt;button class="button button__success"&gt;
+    &lt;span class="button__span"&gt;Apply now&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+              </code></pre>
             </article>
           </section>
         </article>
