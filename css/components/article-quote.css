@@ -4,7 +4,7 @@
   border: 1px solid var(--background-color--primary);
   font-style: normal;
 
-  width: 640px;
+  max-width: 640px;
   box-sizing: content-box;
   font-family: "Raleway", sans-serif;
 }

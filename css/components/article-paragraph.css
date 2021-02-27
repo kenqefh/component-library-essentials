@@ -1,5 +1,5 @@
 .article_paragraph__text {
-  width: 640px;
+  max-width: 640px;
 
   font-family: "Raleway", sans-serif;
   font-style: normal;
